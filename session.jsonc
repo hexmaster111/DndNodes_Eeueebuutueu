@@ -46,7 +46,7 @@
             "clan" : "Tall Trees",
             "class": "druid",
             "race" : "CatPerson, Tebaxy",
-            "age" : 53,
+            "age"  : 53,
             "type" : "npc"
         },
 
@@ -65,10 +65,12 @@
             "notes" : "bad eye sight",
         },
 
-        "Warden":{
+        "Felix Aloro":{
+            "job" : "warden",
+            "race" : "half elf",
             "notes" : [
                 "let us out of jail",
-                "spit chew at me",
+                "spit chew (tabbaco) at me",
             ]
         },
     },
@@ -78,12 +80,11 @@
         [
             "NOV 30 2025",
             "Start Of Game",
-            "Released from jail",
+            "Released from jail by 'Felix Aloro'",
             "Cleared out 'Anchent Merfoke Ruens'",
             "Gained NPC 'Wild Thorns'",
             "Ended session walking back to 'Agave Springs'"
-        ],
-        
+        ],        
         [
             "DEC 7 2025",
             "Came back from clearing 'Anchent Merfoke Ruens'",
@@ -92,5 +93,13 @@
             "met 'Old Lady Jenkens' directed east to find her sheep",
             "Ended session infront of a cave the foot prints and cart tracks and birds lead to"
         ]
-    ]
+    ],
+
+    "Questions for next time" : {
+        "Wild Thorn" : [
+            "Tell me more about the clan that 'Wild Thorns' Is appart of",
+            "Tell me more about what she does in the area",
+            "Why is she fallowing us???????",
+        ]
+    }
 }

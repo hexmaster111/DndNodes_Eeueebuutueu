@@ -46,9 +46,9 @@
     "Hit Dice" : "1d6+2",
     "Features and Trates" : {
         "Swim"              : { "desc" : "30 ft"}, 
-        "Cunning Artsan"    : { "desc" : "Make darts and javlins on long rest"},
+        "Cunning Artsan"    : { "desc" : "harvest boans from small or larger creates, create one of the fallowing items SHield, Club, Javalon, or 1d4 darts/blowgun needles, requires dagger or apporpate tools"},
         "Hold Breath"       : { "decs" : "15 minutes"},
-        "Hungry Jaws"       : { "desc" : "Heal from biteing"},
+        "Hungry Jaws"       : { "desc" : "Heal from biteing, heal CONSTITIUTION MOD temp hp on hit", "type" : "Bonis Action"},
         "Necromancy Savant" : { "desc" : "Takes 1/2 time to copy spells"},
         "Grim Harvis"       : { "desc" : "Spell Level is HP back on kill"},
         "Researcher"        : { "desc" : "You always know the location of hidden lore and how to locate said lore."}
@@ -62,14 +62,14 @@
     // else final_roll = skill["val"]
     "Skills" : {
         "Acrobatics (Dex)"      :  { "val": 2, "prof": false},
-        "Animal Handling (Wis)" :  { "val": 4, "prof": true },
+        "Animal Handling (Wis)" :  { "val": 3, "prof": true },
         "Arcana (Int)"          :  { "val": 5, "prof": true },
         "Athletics (Str)"       :  { "val": 0, "prof": false},
         "Deception (Cha)"       :  { "val": 0, "prof": false},
         "History (Int)"         :  { "val": 5, "prof": true },
         "Insight (Wis)"         :  { "val": 1, "prof": false},
         "Intimidation (Cha)"    :  { "val": 0, "prof": false},
-        "Investigation (Int)"   :  { "val": 3, "prof": true },
+        "Investigation (Int)"   :  { "val": 5, "prof": true },
         "Medicine (Wis)"        :  { "val": 3, "prof": true },
         "Nature (Int)"          :  { "val": 3, "prof": false},
         "Perception (Wis)"      :  { "val": 3, "prof": true },
@@ -82,17 +82,16 @@
     },
     
     "Saving Throws" : {
-        "STR" : 0,
-        "DEX" : 2,
-        "CON" : 2,
-        "INT" : 3,
-        "WIS" : 1,
-        "CAR" : 0,
+        "STR" : {"val":0, "prof":false},
+        "DEX" : {"val":2, "prof":false},
+        "CON" : {"val":2, "prof":false},
+        "INT" : {"val":3, "prof":true },
+        "WIS" : {"val":3, "prof":true },
+        "CAR" : {"val":0, "prof":false},
     },
 
-
-
-    "class": "Necro Wizard",
+    "class": "Wizard",
+    "subclass" : "Necro",
     "race" : "lizardfolk",
     "background" : "Sage",
     "age" : 38,

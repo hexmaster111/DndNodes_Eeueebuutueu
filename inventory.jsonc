@@ -21,7 +21,7 @@
     "Torches" :{"mass":1, "cost":"1c", "qty":10},
     "Rations" :{"mass":2, "cost":"5s", "qty":10, "desc":"1 days food"},
     "Rope" :{"mass":0.2, "cost":"2c", "qty":50},
-    "Tabbaco" :{"desc":"Used, from 'Warden' mouth", "qty":2},
+    "Tabbaco" :{"desc":"Used, from 'Felix Aloro' mouth", "qty":2},
     "Citrine" :{"desc":"GemStone, reward from clearing 'Anchent Merfoke Ruens'" },
     "Cloud Of Daggers Scroll":{},
     "Sledge Hammer":{"mass":10, "cost":"2g"},
