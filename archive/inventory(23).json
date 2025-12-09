@@ -1,0 +1,319 @@
+{
+  "inventory": [
+    {
+      "category": "Miscellaneous",
+      "name": "Backpack",
+      "quantity": "1",
+      "weight": "0",
+      "description": "This very pack you are looking in",
+      "cost": "",
+      "damage": ""
+    },
+    {
+      "category": "Miscellaneous",
+      "name": "Bedroll",
+      "quantity": "1",
+      "weight": "7",
+      "description": "",
+      "cost": "1 g",
+      "damage": ""
+    },
+    {
+      "category": "Miscellaneous",
+      "name": "Mess Kit",
+      "quantity": "1",
+      "weight": "1",
+      "description": "A Tin box with a cup and simple cutlery",
+      "cost": "2 s",
+      "damage": ""
+    },
+    {
+      "category": "Tool",
+      "name": "Flint and Steel",
+      "quantity": "1",
+      "weight": ".5",
+      "description": "",
+      "cost": "2 s",
+      "damage": ""
+    },
+    {
+      "category": "Miscellaneous",
+      "name": "Water Skin (full)",
+      "quantity": "1",
+      "weight": "5",
+      "description": "",
+      "cost": "2 s",
+      "damage": ""
+    },
+    {
+      "category": "Miscellaneous",
+      "name": "Bottle of ink and quill",
+      "quantity": "1",
+      "weight": ".5",
+      "description": "",
+      "cost": "5 s",
+      "damage": ""
+    },
+    {
+      "category": "Tool",
+      "name": "Small Knife",
+      "quantity": "1",
+      "weight": ".5",
+      "description": "A 2 inch blade",
+      "cost": "1 g",
+      "damage": "1d2+0 range: 20/60"
+    },
+    {
+      "category": "Tool",
+      "name": "Torches",
+      "quantity": "10",
+      "weight": "1",
+      "description": "",
+      "cost": "1 c",
+      "damage": ""
+    },
+    {
+      "category": "Miscellaneous",
+      "name": "Rations",
+      "quantity": "10",
+      "weight": "2",
+      "description": "1 days food",
+      "cost": "5 s",
+      "damage": ""
+    },
+    {
+      "category": "Tool",
+      "name": "Rope",
+      "quantity": "50 ",
+      "weight": ".2",
+      "description": "",
+      "cost": "2 c",
+      "damage": ""
+    },
+    {
+      "category": "Miscellaneous",
+      "name": "Gold",
+      "quantity": "11",
+      "weight": "0",
+      "description": "Description",
+      "cost": "0g 0s 0c",
+      "damage": "0d0+0"
+    },
+    {
+      "category": "Miscellaneous",
+      "name": "Copper  ",
+      "quantity": "24",
+      "weight": "0",
+      "description": "Description",
+      "cost": "0g 0s 0c",
+      "damage": "0d0+0"
+    },
+    {
+      "category": "Weapon",
+      "name": "Silver",
+      "quantity": "0",
+      "weight": "0",
+      "description": "Description",
+      "cost": "0g 0s 0c",
+      "damage": "0d0+0"
+    },
+    {
+      "category": "Weapon",
+      "name": "Wardens Spit Tabaco (used)",
+      "quantity": "1",
+      "weight": "0",
+      "description": "Description",
+      "cost": "0g 0s 0c",
+      "damage": "0d0+0"
+    },
+    {
+      "category": "Weapon",
+      "name": "Citrine ",
+      "quantity": "1",
+      "weight": "0",
+      "description": "Gemstone (5+g)",
+      "cost": "5g 0s 0c",
+      "damage": "0d0+0"
+    },
+    {
+      "category": "Weapon",
+      "name": "Scroll (Cloud Of Daggers)",
+      "quantity": "2",
+      "weight": "0",
+      "description": "Description",
+      "cost": "0g 0s 0c",
+      "damage": "0d0+0"
+    },
+    {
+      "category": "Tool",
+      "name": "Sledge Hammer",
+      "quantity": "1",
+      "weight": "10",
+      "description": "Description",
+      "cost": "2g 0s 0c",
+      "damage": "0d0+0"
+    },
+    {
+      "category": "Tool",
+      "name": "Block & Tackel",
+      "quantity": "1",
+      "weight": "5",
+      "description": "Description",
+      "cost": "1g 0s 0c",
+      "damage": "0d0+0"
+    }
+  ],
+  "equipped": [
+    {
+      "category": "Weapon",
+      "name": "Bite",
+      "quantity": "1",
+      "weight": "0",
+      "description": "My ability to nibble",
+      "cost": "priceless",
+      "damage": "1d6+0 Piercing"
+    },
+    {
+      "category": "Weapon",
+      "name": "Quarterstaff",
+      "quantity": "1",
+      "weight": "4",
+      "description": "Versatile - can use it with hand for 1d6 or two hands for 1d8",
+      "cost": "2 s",
+      "damage": "1d8+0"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobatics",
+      "stat": "Dexterity",
+      "proficient": false
+    },
+    {
+      "name": "Animal Handling",
+      "stat": "Wisdom",
+      "proficient": true
+    },
+    {
+      "name": "Arcana",
+      "stat": "Intelligence",
+      "proficient": true
+    },
+    {
+      "name": "Athletics",
+      "stat": "Strength",
+      "proficient": false
+    },
+    {
+      "name": "Deception",
+      "stat": "Charisma",
+      "proficient": false
+    },
+    {
+      "name": "History",
+      "stat": "Intelligence",
+      "proficient": true
+    },
+    {
+      "name": "Insight",
+      "stat": "Wisdom",
+      "proficient": false
+    },
+    {
+      "name": "Intimidation",
+      "stat": "Charisma",
+      "proficient": false
+    },
+    {
+      "name": "Investigation",
+      "stat": "Intelligence",
+      "proficient": true
+    },
+    {
+      "name": "Medicine",
+      "stat": "Wisdom",
+      "proficient": true
+    },
+    {
+      "name": "Nature",
+      "stat": "Intelligence",
+      "proficient": false
+    },
+    {
+      "name": "Perception",
+      "stat": "Wisdom",
+      "proficient": true
+    },
+    {
+      "name": "Performance",
+      "stat": "Charisma",
+      "proficient": false
+    },
+    {
+      "name": "Persuasion",
+      "stat": "Charisma",
+      "proficient": false
+    },
+    {
+      "name": "Religion",
+      "stat": "Intelligence",
+      "proficient": false
+    },
+    {
+      "name": "Sleight of Hand",
+      "stat": "Dexterity",
+      "proficient": false
+    },
+    {
+      "name": "Stealth",
+      "stat": "Dexterity",
+      "proficient": false
+    },
+    {
+      "name": "Survival",
+      "stat": "Wisdom",
+      "proficient": false
+    },
+    {
+      "name": "Turky Culling",
+      "stat": "Dexterity",
+      "proficient": true
+    }
+  ],
+  "characterInfo": {
+    "playerLevel": 1,
+    "proficiencyBonus": "+2"
+  },
+  "abilityScores": [
+    {
+      "ability": "Strength",
+      "value": 11,
+      "modifier": "0"
+    },
+    {
+      "ability": "Dexterity",
+      "value": 14,
+      "modifier": "2"
+    },
+    {
+      "ability": "Constitution",
+      "value": 14,
+      "modifier": "2"
+    },
+    {
+      "ability": "Intelligence",
+      "value": 17,
+      "modifier": "3"
+    },
+    {
+      "ability": "Wisdom",
+      "value": 12,
+      "modifier": "1"
+    },
+    {
+      "ability": "Charisma",
+      "value": 10,
+      "modifier": "0"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+    "Quests" :  [
+        {"session":0, "desc" : "clear out all little dragons from 'Anchent Merfoke Ruens'", "done" : true, "reward" : "10 nights at inn" },
+        {"session":1, "desc" : "Go to the Jenkins Farm they are having cattle issues, Sharif thinks its the glandhig gang", "done" : false }
+    ],
+    
+
+    "Location Memory" : {
+        "Anchent Merfoke Ruens" : {},
+        "Agave Springs" :{ "has" : ["shop"]},
+        "Jenkens Farm" : {  },
+    },
+    
+    "Gangs / Factions / Clans" : {
+        "glandhig gang": { 
+            "leader": {"name" : "Beloral Glandhig", "race":"dwarf"}, 
+            "lair" : "ruined tower SE of 'Agave Springs'",
+            "desc" : "Meet members Session[0], was in inn, steeling/killing caddle from Jenkens Farm",
+        },
+        "Tall Trees" : {}
+    },
+    
+    "Party" : ["Mesa Merder", "Blue Bell", "Eeubeuetue", "Wild Thorns"],
+    
+    "Entity Memory" : {
+        "Mesma Merder": {
+            "lvl"  : 2,
+            "class" : "barbarian",
+            "job"  : "Killer For others",
+            "age"  : 43,
+            "race" : "teefing",
+            "internal body temp" : 105,
+            "type" : "player"
+        },
+
+        "Blue Bell":{
+            "lvl"  : 2,
+            "race" : "deer cervan",
+            "class": "druid",
+            "age"  : 25,
+            "type" : "player",
+            "languages" : ["bird"],
+        },
+
+        "Wild Thorns": {
+            "clan" : "Tall Trees",
+            "class": "druid",
+            "race" : "CatPerson, Tebaxy",
+            "age" : 53,
+            "type" : "npc"
+        },
+
+        "Mr.Neminis": {
+            "job" : "Shop keep at 'Agave Spring' shop",
+            "type" : "npc",
+            "class": "commoner",
+            "notes" : "red eyes, (Suspected Vampire)",
+        },
+
+        "Old Lady Jenkens" : {
+            "job" : "farmer",
+            "friends with" : ["Wild Thorns"],
+            "class" : "commoner",
+            "type" : "npc",
+            "notes" : "bad eye sight",
+        },
+
+        "Warden":{
+            "notes" : [
+                "let us out of jail",
+                "spit chew at me",
+            ]
+        },
+    },
+
+   
+    "Session" : [
+        [
+            "NOV 30 2025",
+            "Start Of Game",
+            "Released from jail",
+            "Cleared out 'Anchent Merfoke Ruens'",
+            "Gained NPC 'Wild Thorns'",
+            "Ended session walking back to 'Agave Springs'"
+        ],
+        
+        [
+            "DEC 7 2025",
+            "Came back from clearing 'Anchent Merfoke Ruens'",
+            "Met 'Mr.Neminis' in his shop and shopped",
+            "went to 'Jenkens Farm'",
+            "met 'Old Lady Jenkens' directed east to find her sheep",
+            "Ended session infront of a cave the foot prints and cart tracks and birds lead to"
+        ]
+    ]
+}

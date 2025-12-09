@@ -1,0 +1,101 @@
+{
+    "name" : "Eeubeuetue",
+    "level": 2,
+    "health" : { "now" : 14, "max" : 14},
+    
+    "stats" : {
+        "STR" : { "val" :11, "mod" : 0},
+        "DEX" : { "val" :14, "mod" : 2},
+        "CON" : { "val" :14, "mod" : 2},
+        "INT" : { "val" :17, "mod" : 3},
+        "WIZ" : { "val" :12, "mod" : 1},
+        "CAR" : { "val" :10, "mod" : 0},
+        "Armor Class" : 15,
+        "Speed" : 30,
+        "Passive Wisdom Perception": 13,
+    },
+
+    "Magic" : {
+        "Spell Save DC" : 13,
+        "Spell Attack Bonis" : 5,
+        "Spell Casting Ability" : "INT",
+        
+        "Spells that can be prepared" : 4,
+        "Prepared Spells" : ["Magic Missle", "False Life", "Ray of Sickness", "Catapult"],
+
+        "Cantrips" : {
+            "Mage Hand"      : { "desc" : ""},
+            "Cold Touch"     : { "desc" : "", "damage":"1d8", "range":120},
+            "Control Flames" : { "desc" : "", "range":60, "time":"1 hr"},
+        },
+
+        // type: "ritual" means that you *can* take more time and not use a spell slot
+        "Level 1" : {
+            "Slots"           : { "now" : 3, "max" : 3 },
+            "Magic Missle"    : { "damage" : "1d4+1"},
+            "False Life"      : { "damage" : "1d4+4", "needs" : "little alcohol"},
+            "Unseen Servant"  : { "desc" : "", "needs" : "Wood and string", "type" : "Ritual"},
+            "Ray of Sickness" : { "damage" : "2d8", "range":60, "saves" : "CON save to posion"},
+            "Catapult"        : { "damage" : "3d8", "range":60, "saves" : "DEX safe to dodge"},
+            "Feather Fall"    : { "desc" : "", "needs" : "small feather"},
+        }
+    },
+
+
+    "Languages" : ["Common", "Draconic"],
+    "Hit Dice" : "1d6+2",
+    "Features and Trates" : {
+        "Swim"              : { "desc" : "30 ft"}, 
+        "Cunning Artsan"    : { "desc" : "Make darts and javlins on long rest"},
+        "Hold Breath"       : { "decs" : "15 minutes"},
+        "Hungry Jaws"       : { "desc" : "Heal from biteing"},
+        "Necromancy Savant" : { "desc" : "Takes 1/2 time to copy spells"},
+        "Grim Harvis"       : { "desc" : "Spell Level is HP back on kill"},
+        "Researcher"        : { "desc" : "You always know the location of hidden lore and how to locate said lore."}
+    },
+    
+    "Proficeny Bonis" : 2,
+    "proficent with" : ["darts", "daggers", "quarterstaffs", "slings", "light crossbows"],
+    
+
+    // if porof, final_roll = skill["val"] + "Proficency Bonis"
+    // else final_roll = skill["val"]
+    "Skills" : {
+        "Acrobatics (Dex)"      :  { "val": 2, "prof": false},
+        "Animal Handling (Wis)" :  { "val": 4, "prof": true },
+        "Arcana (Int)"          :  { "val": 5, "prof": true },
+        "Athletics (Str)"       :  { "val": 0, "prof": false},
+        "Deception (Cha)"       :  { "val": 0, "prof": false},
+        "History (Int)"         :  { "val": 5, "prof": true },
+        "Insight (Wis)"         :  { "val": 1, "prof": false},
+        "Intimidation (Cha)"    :  { "val": 0, "prof": false},
+        "Investigation (Int)"   :  { "val": 3, "prof": true },
+        "Medicine (Wis)"        :  { "val": 3, "prof": true },
+        "Nature (Int)"          :  { "val": 3, "prof": false},
+        "Perception (Wis)"      :  { "val": 3, "prof": true },
+        "Performance (Cha)"     :  { "val": 0, "prof": false},
+        "Persuasion (Cha)"      :  { "val": 0, "prof": false},
+        "Religion (Int)"        :  { "val": 3, "prof": false},
+        "Sleight of Hand (Dex)" :  { "val": 2, "prof": false},
+        "Stealth (Dex)"         :  { "val": 2, "prof": false},
+        "Survival (Wis)"        :  { "val": 1, "prof": false},
+    },
+    
+    "Saving Throws" : {
+        "STR" : 0,
+        "DEX" : 2,
+        "CON" : 2,
+        "INT" : 3,
+        "WIS" : 1,
+        "CAR" : 0,
+    },
+
+
+
+    "class": "Necro Wizard",
+    "race" : "lizardfolk",
+    "background" : "Sage",
+    "age" : 38,
+    "height" : "6' 1",
+    "wight" : 190,
+}

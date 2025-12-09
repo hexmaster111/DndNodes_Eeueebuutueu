@@ -1,0 +1,30 @@
+{
+    // STR * 15 (lbs)
+    "Max Carry Weight" : 165,
+    "Equiped" : {
+        "Mouth" : ["Bite"],
+        "Both Hands" : "Quarterstaff",
+    },
+    "Gold"   : 9,
+    "Silver" : 0,
+    "Coper"  : 24,
+    
+    "Quarterstaff" :{"mass":4, "cost":"2s", "damage":{"one hand":"1d6", "two hand":"1d8"}},
+    "Bite" :{"damage":"1d6 Piercing"},
+    "Backpack" : {"desc":"The pack you are looking in"},
+    "Bed Roll" : {"mass":7},
+    "Mess Kit" : {"mass":1,"cost":"2s"},
+    "Flint & Steel" : {"mass":0.5, "cost":"2s"},
+    "Water Skin" : {"mass":5,"cost":"2s", "desc":"Full"},
+    "Bottle of ink & Quill" : {"mass":0.5, "cost":"5s"},
+    "Small Knife" : {"mass":0.5,"cost":"1g", "desc":"2 inch blade", "damage":"1d2+0", "range":"20/60"},
+    "Torches" :{"mass":1, "cost":"1c", "qty":10},
+    "Rations" :{"mass":2, "cost":"5s", "qty":10, "desc":"1 days food"},
+    "Rope" :{"mass":0.2, "cost":"2c", "qty":50},
+    "Tabbaco" :{"desc":"Used, from 'Warden' mouth", "qty":2},
+    "Citrine" :{"desc":"GemStone, reward from clearing 'Anchent Merfoke Ruens'" },
+    "Cloud Of Daggers Scroll":{},
+    "Sledge Hammer":{"mass":10, "cost":"2g"},
+    "Block & Tackle":{"mass":5, "cost":"1g"},
+    "Bottle":{"mass":1,"desc":"filled with water from well", "volume":"1.5 pintes", "cost":"2g"}
+}
