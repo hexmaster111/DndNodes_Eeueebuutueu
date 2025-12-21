@@ -16,6 +16,7 @@
             "leader": {"name" : "Beloral Glandhig", "race":"dwarf"}, 
             "lair" : "ruined tower SE of 'Agave Springs'",
             "desc" : "Meet members Session[0], was in inn, steeling/killing caddle from Jenkens Farm",
+            "Data from intergating goblin" : "Hires goblin to mess with farms and steal animals"
         },
         "Tall Trees" : {}
     },
@@ -47,7 +48,9 @@
             "class": "druid",
             "race" : "CatPerson, Tebaxy",
             "age"  : 53,
-            "type" : "npc"
+            "type" : "npc",
+            "why shes falowing us?" : "I get the sensec that the want to help the people of this land very simlerrly to how i want to",
+            "height":"5'8"
         },
 
         "Mr.Neminis": {
@@ -92,6 +95,15 @@
             "went to 'Jenkens Farm'",
             "met 'Old Lady Jenkens' directed east to find her sheep",
             "Ended session infront of a cave the foot prints and cart tracks and birds lead to"
+        ],
+        [
+            "DEC 21 2025",
+            "Went to goblin gotlet cave",
+            "Walked through it, killed most all",
+            "captured common speaking leader",
+            {
+                "META": "Photo of dungion and notes in [2] folder"
+            }
         ]
     ],
 
@@ -99,7 +111,6 @@
         "Wild Thorn" : [
             "Tell me more about the clan that 'Wild Thorns' Is appart of",
             "Tell me more about what she does in the area",
-            "Why is she fallowing us???????",
         ]
     }
 }

@@ -23,8 +23,22 @@
     "Rope" :{"mass":0.2, "cost":"2c", "qty":50},
     "Tabbaco" :{"desc":"Used, from 'Felix Aloro' mouth", "qty":2},
     "Citrine" :{"desc":"GemStone, reward from clearing 'Anchent Merfoke Ruens'" },
+    "Lappis" : {"qty" : 4},
+    "Blue Quorts" : {"qty" : 4},
     "Cloud Of Daggers Scroll":{},
+    "Fire bolt scroll":{},
+    "Acid Splash Scroll" : {},
     "Sledge Hammer":{"mass":10, "cost":"2g"},
     "Block & Tackle":{"mass":5, "cost":"1g"},
-    "Bottle":{"mass":1,"desc":"filled with water from well", "volume":"1.5 pintes", "cost":"2g"}
+    "Pitttens" : {   "notes":"Things we can pound into rocks"},
+    "Bottle":{"mass":1,"desc":"filled with water from well", "volume":"1.5 pintes", "cost":"2g"},
+    "5ftx5ft Net and weights":{   "notes":"Collected from cave trap"},
+    "Bone Dart" : {  "notes":"Collected from cave trap"},
+    //-- none rn "Common Potion of healing" : { "notes":"", "Regain":"2d4+2" },
+    "Small anamal bones" :{   "notes":"A handfull of boans"},
+    "gobblin leader" : { 
+        "notes": "Unconcus, tied up attached to my front like a baby, MAN, Well Nurrshed ok, 40 yo",
+        "languages" : ["goblin", "common"]
+    },
+    "Bottle full of Guanno (poop, dry)":"1.5 pintes",
 }
