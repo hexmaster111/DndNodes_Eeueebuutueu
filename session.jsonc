@@ -1,7 +1,7 @@
 {
     "Quests" :  [
-        {"session":0, "desc" : "clear out all little dragons from 'Anchent Merfoke Ruens'", "done" : true, "reward" : "10 nights at inn" },
-        {"session":1, "desc" : "Go to the Jenkins Farm they are having cattle issues, Sharif thinks its the glandhig gang", "done" : false }
+        {"session":0, "quest_id":0, "desc" : "clear out all little dragons from 'Anchent Merfoke Ruens'", "done" : true, "reward" : "10 nights at inn" },
+        {"session":1, "quest_id":1, "desc" : "Go to the Jenkins Farm they are having cattle issues, Sharif thinks its the glandhig gang", "done" : true, "reward":"3 sliver, blade flower seeds" },
     ],
     
 
@@ -76,6 +76,12 @@
                 "spit chew (tabbaco) at me",
             ]
         },
+
+        "Boblin the goblin":{
+            
+            "Notes":"Taken from the caves in quest_id 0, keep him for data",
+            "Dick":"6in 8in long, 6 testies"
+        }
     },
 
    
@@ -104,6 +110,18 @@
             {
                 "META": "Photo of dungion and notes in [2] folder"
             }
+        ],
+        [
+            "JAN 11 2026",
+            "Came back from the caves",
+            "Dropped off 'boblin the goblin' at the sharifs",
+            "human bandits from glandhig gang came back to Agave springs",
+            "We killed most all of them",
+            "Ended going to bed in the inn",
+            {
+                "META":"Rember to goto shops to sell items "
+            }
+ 
         ]
     ],
 

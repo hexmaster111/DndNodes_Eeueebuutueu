@@ -5,9 +5,10 @@
         "Mouth" : ["Bite"],
         "Both Hands" : "Quarterstaff",
     },
-    "Gold"   : 9,
-    "Silver" : 0,
-    "Coper"  : 24,
+
+    "Gold"   : 13,
+    "Silver" : 9,
+    "Coper"  : 4,
     
     "Quarterstaff" :{"mass":4, "cost":"2s", "damage":{"one hand":"1d6", "two hand":"1d8"}},
     "Bite" :{"damage":"1d6 Piercing"},
@@ -25,9 +26,13 @@
     "Citrine" :{"desc":"GemStone, reward from clearing 'Anchent Merfoke Ruens'" },
     "Lappis" : {"qty" : 4},
     "Blue Quorts" : {"qty" : 4},
-    "Cloud Of Daggers Scroll":{},
-    "Fire bolt scroll":{},
-    "Acid Splash Scroll" : {},
+    
+    "Hand Crossbow" : {"qty":3},
+
+    //-- none rn "Cloud Of Daggers Scroll":{"desc":"cloud of spinning daggers", "damage":"4d4", "qty":1},
+    "Fire bolt scroll":{"desc":"launch a fire bolt at a creacher", "damage":"1d10", "range":"120", "qty":1},
+    "Acid Splash Scroll" : {"desc":"launch acid blash", "damage":"1d6 acid","range":"60", "qty":1},
+    
     "Sledge Hammer":{"mass":10, "cost":"2g"},
     "Block & Tackle":{"mass":5, "cost":"1g"},
     "Pitttens" : {   "notes":"Things we can pound into rocks"},
