@@ -6,8 +6,8 @@
         "Both Hands" : "Quarterstaff",
     },
 
-    "Gold"   : 13,
-    "Silver" : 9,
+    "Gold"   : 78,
+    "Silver" : 24,
     "Coper"  : 4,
     
     "Quarterstaff" :{"mass":4, "cost":"2s", "damage":{"one hand":"1d6", "two hand":"1d8"}},
@@ -23,12 +23,8 @@
     "Rations" :{"mass":2, "cost":"5s", "qty":10, "desc":"1 days food"},
     "Rope" :{"mass":0.2, "cost":"2c", "qty":50},
     "Tabbaco" :{"desc":"Used, from 'Felix Aloro' mouth", "qty":2},
-    "Citrine" :{"desc":"GemStone, reward from clearing 'Anchent Merfoke Ruens'" },
-    "Lappis" : {"qty" : 4},
-    "Blue Quorts" : {"qty" : 4},
+    "Giant Scorpian Stinger" : { "qty":1 },
     
-    "Hand Crossbow" : {"qty":3},
-
     //-- none rn "Cloud Of Daggers Scroll":{"desc":"cloud of spinning daggers", "damage":"4d4", "qty":1},
     "Fire bolt scroll":{"desc":"launch a fire bolt at a creacher", "damage":"1d10", "range":"120", "qty":1},
     "Acid Splash Scroll" : {"desc":"launch acid blash", "damage":"1d6 acid","range":"60", "qty":1},
