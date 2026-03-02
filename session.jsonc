@@ -2,7 +2,7 @@
     "Quests" :  [
         {"session":0, "quest_id":0, "desc" : "clear out all little dragons from 'Anchent Merfoke Ruens'", "done" : true, "reward" : "10 nights at inn" },
         {"session":1, "quest_id":1, "desc" : "Go to the Jenkins Farm they are having cattle issues, Sharif thinks its the glandhig gang", "done" : true, "reward":"3 sliver, blade flower seeds" },
-        {"session":3, "quest_id":2, "desc" : "Go and try and find Mr.Nemesses friend Thomas.", "done":false, "reward":""}
+        {"session":3, "quest_id":2, "desc" : "Go and try and find Mr.Nemesses friend 'Thomas Turtal'.", "done":false, "reward":""}
     ],
     
 
@@ -88,6 +88,10 @@
             
             "Notes":"Taken from the caves in quest_id 0, keep him for data",
             "Dick":"6in 8in long, 6 testies"
+        },
+
+        "Thomas Turtal" : {
+            "Notes":"Saved from giant scorpians in quest_id 2"
         }
     },
 
@@ -131,13 +135,19 @@
         ], 
         [
             "JAN 25 2026",
-            "Went to reccue Mr.Nemesses's friend turtle",
+            "Went to reccue Mr.Nemesses's friend 'Thomas Turtal'",
             "Fought Giant scorpians",
-            "Found turtle",
+            "Found 'Thomas Turtal'",
             "Ended session out side of cave all done.",
             {
                 "META:":"Photo of session in [4]"
             }
+        ],
+        [
+            "MAR 1 2026",
+            "Went to bar that 'Thomas Turtal' told us to goto",
+            "Zombies came to bar",
+            "We defeted everything."
         ]
     ],
 

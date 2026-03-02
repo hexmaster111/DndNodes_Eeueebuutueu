@@ -1,8 +1,10 @@
 {
     "name" : "Eeubeuetue",
     "level": 2,
-    "health" : { "now" : 21, "max" : 21},
+    "health" : { "now" : 10, "max" : 21},
     
+    "initiative" : 2, // this number is just my dex mox
+
     "stats" : {
         "STR" : { "val" :11, "mod" : 0},
         "DEX" : { "val" :14, "mod" : 2},
@@ -31,17 +33,17 @@
 
         // type: "ritual" means that you may take more time and not use a spell slot
         "Level 1" : {
-            "Slots"           : { "now" : 3, "max" : 4 },
-            "Magic Missle"    : { "damage" : "1d4+1", "desc":"3 glowing darts amied at one or many", "upcast":"+ 1 dart per spell level"},
+            "Slots"           : { "now" : 2, "max" : 4 },
             "False Life"      : { "damage" : "1d4+4", "needs" : "little alcohol", "desc":"1d4 + 4 temporary hit points for the duration."},
             "Unseen Servant"  : { "desc" : "", "needs" : "Wood and string", "type" : "Ritual"},
             "Ray of Sickness" : { "damage" : "2d8", "range":60, "saves" : "CON save to posion"},
             "Catapult"        : { "damage" : "3d8","desc":"launchh a 1-5lb object streght line 90ft ", "range":60, "saves" : "DEX safe to dodge"},
             "Feather Fall"    : { "desc" : "", "needs" : "small feather"},
         },
-
+        
         "Level 2":{
-            "Slots"           : { "now" : 2, "max" : 2 },
+            "Slots"           : { "now" : 1, "max" : 2 },
+            "Magic Missle"    : { "damage" : "1d4+1", "desc":"4 glowing darts amied at one or many", "upcast":"+ 1 dart per spell level"},
             
         }
     },

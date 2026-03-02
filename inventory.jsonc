@@ -37,9 +37,5 @@
     "Bone Dart" : {  "notes":"Collected from cave trap"},
     //-- none rn "Common Potion of healing" : { "notes":"", "Regain":"2d4+2" },
     "Small anamal bones" :{   "notes":"A handfull of boans"},
-    "gobblin leader" : { 
-        "notes": "Unconcus, tied up attached to my front like a baby, MAN, Well Nurrshed ok, 40 yo",
-        "languages" : ["goblin", "common"]
-    },
     "Bottle full of Guanno (poop, dry)":"1.5 pintes",
 }
